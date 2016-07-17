@@ -13,7 +13,6 @@
 
 # "fall back" configuration for all other branches
 # no "branches" section defined
-# do not deploy at all
 -
   build_script:
     - ps: .\build.cmd

@@ -24,6 +24,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\KreatorDsl.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -32,6 +33,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\KreatorDsl.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
@@ -39,7 +41,19 @@
     <None Include="paket.template" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Ast\AstNode.cs" />
+    <Compile Include="Ast\BooleanNode.cs" />
+    <Compile Include="Ast\DimensionedNode.cs" />
+    <Compile Include="Ast\DirectionNode.cs" />
+    <Compile Include="Ast\InstructionNode.cs" />
+    <Compile Include="Ast\IntegerNode.cs" />
+    <Compile Include="Ast\ListNode.cs" />
+    <Compile Include="Ast\NamedArgNode.cs" />
+    <Compile Include="Ast\PosAwareNode.cs" />
+    <Compile Include="Ast\StringNode.cs" />
+    <Compile Include="Ast\ValueNode.cs" />
+    <Compile Include="Ast\VariableNode.cs" />
+    <Compile Include="InstructionParser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
