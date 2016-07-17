@@ -3,6 +3,7 @@
     only:
       - master
 
+  skip_non_tags: true
   build_script:
     - ps: .\build.cmd PublishNuget
   test: off
