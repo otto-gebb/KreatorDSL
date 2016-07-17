@@ -6,7 +6,6 @@
   build_script:
     - ps: .\build.cmd PublishNuget
   test: off
-  version: 1.0.0.{build}
   artifacts:
     - path: bin\*.nupkg
       name: NuGet
@@ -17,7 +16,6 @@
   build_script:
     - ps: .\build.cmd
   test: off
-  version: 1.0.0.{build}
   artifacts:
     - path: bin\*.nupkg
       name: NuGet
