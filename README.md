@@ -20,8 +20,10 @@ instruction creates an object.
    Then run these commands (substitute the correct values instead of words
    written in caps):
 
-    > SET github-user=USER
-    > SET github-pw=PASSWORD
-    > build.cmd Release
 
+```
+> SET github-user=USER
+> SET github-pw=PASSWORD
+> build.cmd Release
+```
 
