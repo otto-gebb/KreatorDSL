@@ -1,0 +1,28 @@
+type project
+title
+    KreatorDsl
+owners
+    Otto Gebb
+authors 
+    Otto Gebb
+projectUrl
+    http://github.com/otto-gebb/KreatorDsl
+licenseUrl
+    http://github.com/otto-gebb/KreatorDsl/blob/master/LICENSE.txt
+requireLicenseAcceptance
+    false
+include-pdbs
+    true
+copyright
+    Copyright 2016
+tags
+    DSL parser
+summary
+    A parser of a small DSL intended for creating objects.
+description
+    KreatorDSL parses a sequence of instructions into an abstract
+    syntax tree (AST). What to do with the AST depends on
+    the application, but the original intent is that each
+    instruction creates an object.
+
+

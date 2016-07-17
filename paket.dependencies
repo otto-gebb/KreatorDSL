@@ -1,0 +1,10 @@
+source https://nuget.org/api/v2
+
+nuget Sprache ~> 2
+
+group Build
+  source https://nuget.org/api/v2
+
+  nuget FAKE
+
+  github fsharp/FAKE modules/Octokit/Octokit.fsx
