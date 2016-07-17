@@ -1,3 +1,3 @@
-### 1.0.0-beta - Unreleased
-* Initial release
+#### 1.0.0 - 2016-07-18
+* Initial release.
 
