@@ -1,6 +1,6 @@
 source https://nuget.org/api/v2
 
-nuget Sprache ~> 2
+nuget Sprache
 
 group Build
   source https://nuget.org/api/v2
