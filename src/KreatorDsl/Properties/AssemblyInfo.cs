@@ -4,11 +4,11 @@ using System.Reflection;
 [assembly: AssemblyTitleAttribute("KreatorDsl")]
 [assembly: AssemblyProductAttribute("KreatorDsl")]
 [assembly: AssemblyDescriptionAttribute("A parser of a small DSL intended for creating objects.")]
-[assembly: AssemblyVersionAttribute("1.0.1")]
-[assembly: AssemblyFileVersionAttribute("1.0.1")]
+[assembly: AssemblyVersionAttribute("1.0.2")]
+[assembly: AssemblyFileVersionAttribute("1.0.2")]
 namespace System {
     internal static class AssemblyVersionInformation {
-        internal const string Version = "1.0.1";
-        internal const string InformationalVersion = "1.0.1";
+        internal const string Version = "1.0.2";
+        internal const string InformationalVersion = "1.0.2";
     }
 }
